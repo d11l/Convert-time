@@ -50,7 +50,9 @@ min = time.split(":")[1];
 if(hour > 11){
 hour-=12;    
 res = hour+":"+min+" pm";
-}else{
+
+}
+    else{
 res = hour+":"+min+" am";
 }
 }
